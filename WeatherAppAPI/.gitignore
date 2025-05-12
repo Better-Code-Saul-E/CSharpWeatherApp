@@ -1,0 +1,60 @@
+# Visual Studio general
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+build/
+bld/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]eleasePublic/
+[Ll]og/
+
+# NuGet Packages
+*.nupkg
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
+
+# Roslyn
+*.ruleset
+
+# Test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# User-specific files
+*.DotSettings.user
+
+# Other
+*.Cache
+ClientBin/
+[Ss]tyle[Cc]op.*
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+node_modules/
+bower_components/
+*.generated.cs
+Generated_Code/
+
+# Specific to .NET Core/SDK-style projects (if applicable)
+publish/
